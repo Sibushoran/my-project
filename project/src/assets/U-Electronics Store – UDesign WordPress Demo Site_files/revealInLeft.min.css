@@ -1,0 +1,1 @@
+@keyframes revealInLeft{0%{left:0;right:auto;width:0%}45%{left:0;right:auto;width:100%}55%{left:auto;right:0;width:100%}to{left:auto;right:0;width:0%}}.revealInLeft{--alpha-reveal-animation-color:var(--alpha-primary-color);animation-name:revealContent;animation-timing-function:cubic-bezier(0.1,0.5,0.5,0.9)}.revealInLeft:after{top:0;bottom:0;animation-name:revealInLeft}

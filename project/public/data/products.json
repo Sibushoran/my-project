@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "title": "Wireless Headphones",
+      "description": "High quality wireless headphones with noise cancellation.",
+      "price": 99.99,
+      "img": "https://via.placeholder.com/300x200?text=Headphones"
+    },
+    {
+      "id": 2,
+      "title": "Gaming Laptop",
+      "description": "Powerful gaming laptop with high-end graphics card.",
+      "price": 1499.99,
+      "img": "https://via.placeholder.com/300x200?text=Laptop"
+    },
+    {
+      "id": 3,
+      "title": "Bluetooth Speaker",
+      "description": "Portable speaker with crystal clear sound.",
+      "price": 49.99,
+      "img": "https://via.placeholder.com/300x200?text=Speaker"
+    },
+    {
+      "id": 4,
+      "title": "Smartwatch",
+      "description": "Smartwatch with heart rate and fitness tracking.",
+      "price": 199.99,
+      "img": "https://via.placeholder.com/300x200?text=Smartwatch"
+    }
+  ]
+  

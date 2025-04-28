@@ -1,0 +1,72 @@
+/* ProductList.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #000000, #464646);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-list {
+    background: #313030;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 95%;
+    max-width: 1200px;
+  }
+  
+  .product-list h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #6a1b9a;
+    font-size: 2rem;
+  }
+  
+  .product-list table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .product-list th,
+  .product-list td {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .product-list thead th {
+    background-color: #6a1b9a;
+    color: rgb(22, 21, 21);
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .product-list tbody tr:nth-child(even) {
+    background-color: #131212;
+  }
+  
+  .product-list tbody tr:hover {
+    background-color: #412424;
+  }
+  
+  .product-list button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .product-list button:hover {
+    background-color: #007bff;
+  }
+  

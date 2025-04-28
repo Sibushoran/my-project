@@ -1,0 +1,7 @@
+.elementor-widget-alpus-nested-slider .elementor-swiper {
+    position: relative;
+}
+
+.elementor-widget-alpus-nested-slider .elementor-main-swiper {
+    position: static;
+}

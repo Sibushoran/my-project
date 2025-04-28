@@ -1,0 +1,108 @@
+{
+    "categories": [
+      { "name": "HeadPhone", "count": 3, "img": "headphone.jpg" },
+      { "name": "TV & AV", "count": 2, "img": "tv.jpg" },
+      { "name": "Smart Watches", "count": 2, "img": "watch.jpg" },
+      { "name": "Laptops", "count": 3, "img": "laptop.jpg" },
+      { "name": "Sound Devices", "count": 1, "img": "sound.jpg" },
+      { "name": "Accessories", "count": 4, "img": "usb.jpg" },
+      { "name": "Speakers", "count": 1, "img": "speaker.jpg" }
+    ],
+    "products": [
+      {
+        "img": "phone1.jpg",
+        "tag": "HOT",
+        "category": "SmartPhone",
+        "title": "Anker PowerCore III Sense 18W 10000mAh",
+        "price": 350,
+        "rating": 4
+      },
+      {
+        "img": "mouse.jpg",
+        "category": "Accessories",
+        "title": "Logitech MK540 Wireless Mouse",
+        "price": 70,
+        "rating": 4
+      },
+      {
+        "img": "watch2.jpg",
+        "tag": "10% OFF",
+        "category": "Smart Watches",
+        "title": "Skill Star White Leather Smart Watch",
+        "price": 180,
+        "original": 200,
+        "rating": 3
+      },
+      {
+        "img": "phone2.jpg",
+        "tag": "HOT",
+        "discount": "16% OFF",
+        "category": "SmartPhone",
+        "title": "Right Check Standard Smart Phone",
+        "price": 210,
+        "original": 250,
+        "rating": 0
+      }
+    ],
+    "trendingProducts": [
+      {
+        "title": "Calvin Klein Black Leather...",
+        "category": "Smart Watches",
+        "price": "$145.00–$160.00",
+        "rating": 2,
+        "image": "product-13-1.jpg"
+      },
+      {
+        "title": "Skill Star High Speed Mouse",
+        "category": "Accessories",
+        "price": "$80.00",
+        "oldPrice": "$100.00",
+        "rating": 0,
+        "image": "laptop.jpg"
+      },
+      {
+        "title": "Business High Speed Water...",
+        "category": "Accessories",
+        "price": "$80.00",
+        "oldPrice": "$100.00",
+        "rating": 0,
+        "image": "laptop.jpg"
+      },
+      {
+        "title": "Gucci Kingston HyperX Core",
+        "category": "HeadPhone",
+        "price": "$250.00–$300.00",
+        "rating": 0,
+        "image": "headphones.png"
+      },
+      {
+        "title": "Right Check Mobile Drum...",
+        "category": "Speakers",
+        "price": "$74.55–$88.00",
+        "rating": 3,
+        "image": "speaker.png"
+      },
+      {
+        "title": "Still Star Home Sound Device",
+        "category": "Sound Devices",
+        "price": "$250.00",
+        "rating": 0,
+        "image": "washingmachine.png"
+      },
+      {
+        "title": "Fechadura Smart de...",
+        "category": "TV & AV",
+        "price": "$140.00–$200.00",
+        "rating": 0,
+        "image": "pc.png"
+      },
+      {
+        "title": "Armani Jeans Hight Quality...",
+        "category": "TV & AV",
+        "price": "$400.00",
+        "rating": 0,
+        "image": "tv.png"
+      }
+    ]
+  }
+  

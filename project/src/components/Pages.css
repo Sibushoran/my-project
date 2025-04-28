@@ -1,0 +1,69 @@
+.page-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .page-container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .item-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+  
+  .item-card h3 {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .item-card p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f33;
+  }
+  
+  .cart-total {
+    margin-top: 2rem;
+    text-align: right;
+  }
+  
+  .cart-total h2 {
+    font-size: 1.5rem;
+    color: #222;
+  }
+  
+  .empty-msg {
+    text-align: center;
+    padding: 4rem;
+    color: #666;
+    font-size: 1.2rem;
+  }
+  

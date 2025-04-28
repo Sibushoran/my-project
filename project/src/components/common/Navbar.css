@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #1d1d1f;  /* Dark premium background */
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #d0d0d0;  /* Light gray text */
+}
+
+.top-bar .text-muted {
+  font-size: 12px;
+  color: #c0c0c0; /* Light gray for subtext */
+}
+
+/* Top Bar Links */
+.top-bar .d-flex a {
+  color: #d0d0d0;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.top-bar .d-flex a:hover {
+  color: #c8a200;  /* Premium Gold */
+}
+
+/* Main Header */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;  /* White background for contrast */
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-header .logo {
+  transition: transform 0.3s ease;
+}
+
+.main-header .logo:hover {
+  transform: scale(1.05);
+}
+
+.search-bar input {
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: #c8a200;  /* Premium Gold on focus */
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  color: #c8a200;  /* Premium Gold */
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  transition: color 0.3s ease;
+}
+
+.search-bar button:hover {
+  color: #a87f00;  /* Slightly darker gold on hover */
+}
+
+/* Contact & Icons */
+.contact-icons a {
+  font-size: 18px;
+  color: #1d1d1f;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+  color: #c8a200;  /* Premium Gold on hover */
+}
+
+.contact-icons .badge {
+  background-color: #c8a200;  /* Premium Gold */
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #1d1d1f;  /* Dark background for the navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  background-color: #c8a200;  /* Premium Gold hover background */
+  color: #fff;
+}
+
+/* Navbar Dropdown Styles */
+.navbar .dropdown-menu {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #1d1d1f;  /* Dark background for dropdown */
+}
+
+.navbar .dropdown-item {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #d0d0d0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #c8a200;  /* Premium Gold */
+  color: #fff;
+}
+
+/* Hover Effects */
+.navbar-nav li:hover {
+  transform: scale(1.05);
+}
+
+.navbar-nav li:hover .nav-link {
+  color: #fff;
+}
+
+.navbar-nav li:hover .dropdown-menu {
+  display: block;
+}
+
+/* Responsive Navbar */
+@media (max-width: 991px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .navbar .nav-link {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .search-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .top-bar {
+    display: none;
+  }
+}
+.btn-outline-light {
+  border: 1px solid #fff;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #007bff;
+}

@@ -1,0 +1,162 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Apple Watch Series 7",
+      "brand": "Apple",
+      "price": 399,
+      "original": 499,
+      "category": "Wearables",
+      "rating": 4.5,
+      "tag": "Featured",
+      "img": "https://via.placeholder.com/150",
+      "colors": ["#000", "#fff"],
+      "description": "The Apple Watch Series 7 is the most advanced Apple Watch with a larger screen, faster charging, and new design.",
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy Buds Pro",
+      "brand": "Samsung",
+      "price": 199,
+      "original": 249,
+      "category": "Audio",
+      "rating": 4.8,
+      "tag": "On Sale",
+      "img": "https://via.placeholder.com/150",
+      "colors": ["#111", "#eee"],
+      "description": "The Samsung Galaxy Buds Pro offers superior sound quality with active noise cancellation.",
+      "sizes": ["One Size"]
+    },
+    {
+      "id": 3,
+      "title": "Fitbit Charge 5",
+      "brand": "Fitbit",
+      "price": 149,
+      "original": 179,
+      "category": "Wearables",
+      "rating": 4.2,
+      "tag": "New Arrival",
+      "img": "https://via.placeholder.com/150",
+      "colors": ["#111", "#0078D4"],
+      "description": "Fitbit Charge 5 is a fitness tracker with advanced health features and a sleek design.",
+      "sizes": ["One Size"]
+    },
+    {
+      "id": 4,
+      "title": "Sony WH-1000XM4 Headphones",
+      "brand": "Sony",
+      "price": 348,
+      "original": 399,
+      "category": "Audio",
+      "rating": 4.9,
+      "tag": "Best Seller",
+      "img": "https://via.placeholder.com/150",
+      "colors": ["#000", "#fff"],
+      "description": "Sony WH-1000XM4 offers industry-leading noise cancellation, exceptional sound quality, and comfort.",
+      "sizes": ["One Size"]
+    },
+    {
+      "id": 5,
+      "title": "Bose QuietComfort 35 II",
+      "brand": "Bose",
+      "price": 299,
+      "original": 349,
+      "category": "Audio",
+      "rating": 4.6,
+      "tag": "On Sale",
+      "img": "https://via.placeholder.com/150",
+      "colors": ["#444", "#ccc"],
+      "description": "Bose QuietComfort 35 II delivers crisp sound and is comfortable for long listening sessions.",
+      "sizes": ["One Size"]
+    },
+    {
+      "id": 6,
+      "title": "Apple AirPods Pro",
+      "brand": "Apple",
+      "price": 249,
+      "original": 279,
+      "category": "Audio",
+      "rating": 4.7,
+      "tag": "Featured",
+      "img": "https://via.placeholder.com/150",
+      "colors": ["#fff", "#000"],
+      "description": "Apple AirPods Pro offers active noise cancellation and excellent sound quality.",
+      "sizes": ["One Size"]
+    },
+    {
+      "id": 7,
+      "title": "Samsung Galaxy Watch 4",
+      "brand": "Samsung",
+      "price": 250,
+      "original": 300,
+      "category": "Wearables",
+      "rating": 4.3,
+      "tag": "Trending",
+      "img": "https://via.placeholder.com/150",
+      "colors": ["#111", "#bbb"],
+      "description": "The Samsung Galaxy Watch 4 is a versatile smart watch with advanced health tracking.",
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 8,
+      "title": "Garmin Forerunner 945",
+      "brand": "Garmin",
+      "price": 599,
+      "original": 649,
+      "category": "Wearables",
+      "rating": 4.5,
+      "tag": "New Arrival",
+      "img": "https://via.placeholder.com/150",
+      "colors": ["#000", "#fff"],
+      "description": "The Garmin Forerunner 945 is a GPS smartwatch for athletes and fitness enthusiasts.",
+      "sizes": ["One Size"]
+    }
+  ],
+  "promoBanners": [
+    {
+      "id": 1,
+      "title": "Spring Sale",
+      "image": "https://via.placeholder.com/600x200",
+      "link": "/sale"
+    },
+    {
+      "id": 2,
+      "title": "Black Friday Deals",
+      "image": "https://via.placeholder.com/600x200",
+      "link": "/black-friday"
+    }
+  ],
+  "promo50Off": {
+    "title": "50% OFF",
+    "subtitle": "On selected items",
+    "image": "https://via.placeholder.com/600x300"
+  },
+  "categories": ["Wearables", "Audio", "Accessories", "Smartphones", "Laptops"],
+  "trendingProducts": [
+    {
+      "id": 9,
+      "title": "Apple MacBook Air M1",
+      "brand": "Apple",
+      "price": 999,
+      "original": 1199,
+      "category": "Laptops",
+      "rating": 4.8,
+      "tag": "Trending",
+      "img": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 10,
+      "title": "Samsung Galaxy S21",
+      "brand": "Samsung",
+      "price": 799,
+      "original": 899,
+      "category": "Smartphones",
+      "rating": 4.7,
+      "tag": "New Arrival",
+      "img": "https://via.placeholder.com/150"
+    }
+  ],
+  "brands": ["Apple", "Samsung", "Fitbit", "Bose", "Garmin"],
+  "ratings": [5, 4, 3, 2, 1]
+}
